@@ -1,0 +1,114 @@
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Organigrama Cristian Siegmund</title>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+          google.charts.load('current', {packages:["orgchart"]});
+          google.charts.setOnLoadCallback(drawChart);
+          function drawChart() {
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Cargo');
+            data.addColumn('string', 'Superior');
+            data.addColumn('string', 'Tooltip');
+
+            data.addRows([
+  [
+    "<div style='background:#005b96;color:white;border-radius:5px;padding:10px'><b>Cristian Siegmund</b><br><i>Gerencia General</i></div>",
+    "",
+    "Gerencia General"
+  ],
+  [
+    "<div style='background:#a8e6a1;border-radius:5px;padding:8px;font-size:16px'><b>\ud83e\uddd1\u200d\ud83d\udcbc Auditoria SM</b><br><i>CECO: CGS1008015</i><br><b>Reparte: SI</b></div>",
+    "<div style='background:#005b96;color:white;border-radius:5px;padding:10px'><b>Cristian Siegmund</b><br><i>Gerencia General</i></div>",
+    "Equipo"
+  ],
+  [
+    "<div style='background:#a8e6a1;border-radius:5px;padding:6px;font-size:14px'><b>\ud83c\udfe2 Operaciones Regional SM CHI. (SM SPID)</b><br><i>CECO: CGS1008015</i><br><b>Reparte: SI</b></div>",
+    "<div style='background:#a8e6a1;border-radius:5px;padding:8px;font-size:16px'><b>\ud83e\uddd1\u200d\ud83d\udcbc Auditoria SM</b><br><i>CECO: CGS1008015</i><br><b>Reparte: SI</b></div>",
+    "\u00c1rea Espec\u00edfica"
+  ],
+  [
+    "<div style='background:#a8e6a1;border-radius:5px;padding:5px;font-size:13px'>\ud83d\udc64 Gerente (HC: 1)<br><i>Gerente</i><br>CECO: CGS1008015<br><b>Reparte: SI</b></div>",
+    "<div style='background:#a8e6a1;border-radius:5px;padding:6px;font-size:14px'><b>\ud83c\udfe2 Operaciones Regional SM CHI. (SM SPID)</b><br><i>CECO: CGS1008015</i><br><b>Reparte: SI</b></div>",
+    "Gerente"
+  ]
+]);
+
+            var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+            chart.draw(data, {
+          allowCollapse:true,
+          nodeClass:'node-spacing',
+          allowCollapse:true,
+          nodeClass:'node-spacing',
+          allowCollapse:true,
+          nodeClass:'node-spacing',
+          size:'large',
+          nodeClass:'node-spacing',
+              allowHtml:true,
+              allowCollapse:true
+            });
+          }
+        </script>
+        <style>
+          html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            width: 100%;
+            overflow: auto;
+          }
+          #chart_div {
+        zoom: 1.1;
+        padding: 50px;
+        padding-bottom: 100px;
+            margin: 20px;
+          }
+        
+      .node-spacing table {
+        margin: 20px 30px !important;
+      }
+      .node-spacing td {
+        padding: 20px 10px !important;
+      }
+      </style>
+    </head>
+    <body>
+
+<div id="leyenda" style="margin:40px;padding:20px;background:#e3f2fd;border-radius:10px;max-width:900px">
+  <ul style="font-size:16px;line-height:1.8">
+    <li>🧑‍💼 <b>Equipo</b>: Agrupación organizacional mayor.</li>
+    <li>🏢 <b>Área Específica</b>: Subdepartamento o área funcional.</li>
+    <li>👤 <b>Profesional</b>: Cargo + agrupación funcional.</li>
+    <li>✅ / 🟧 <b>CECO y Reparte</b>:
+      <ul>
+        <li>🟩 Fondo verde: CECO que <b>reparte: SI</b>.</li>
+        <li>🟧 Fondo naranjo: CECO que <b>reparte: NO</b>.</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+
+
+
+
+
+        <div id="chart_div"></div>
+    
+
+
+<div style="margin:40px;text-align:center">
+  <a href="index.html" style="text-decoration:none;">
+    <button style="background:#1976d2;color:white;border:none;padding:12px 20px;font-size:16px;border-radius:8px;cursor:pointer;">
+      ⬅ Volver al Inicio
+    </button>
+  </a>
+</div>
+
+</body>
+    </html>
+    
