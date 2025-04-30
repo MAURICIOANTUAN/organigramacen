@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<title>Organigrama Principal - Cencosud</title>
+<script src="https://www.gstatic.com/charts/loader.js" type="text/javascript"></script>
+<script type="text/javascript">
+    google.charts.load('current', {packages:["orgchart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Cargo');
+      data.addColumn('string', 'Superior');
+      data.addColumn('string', 'Tooltip');
+
+        data.addRows([
+  [
+    "<div style='background:#283593;color:white;border-radius:15px;padding:15px'><b>Rodrigo Larra\u00edn</b><br><i>(Gerente General Corporativo)</i></div>",
+    "",
+    "Gerente General Corporativo"
+  ],
+  [
+    "<div style='background:#5c6bc0;color:white;border-radius:15px;padding:15px'><a href='alexis_quezada.html'  style='color:white;text-decoration:none'><b>Alexis Quezada</b><br><i>(Gerencia Corp. Auditoria Interna)</i></a></div>",
+    "<div style='background:#283593;color:white;border-radius:15px;padding:15px'><b>Rodrigo Larra\u00edn</b><br><i>(Gerente General Corporativo)</i></div>",
+    "(Gerencia Corp. Auditoria Interna)"
+  ],
+  [
+    "<div style='background:#5c6bc0;color:white;border-radius:15px;padding:15px'><a href='andres_neely.html'  style='color:white;text-decoration:none'><b>Andr\u00e9s Neely</b><br><i>(Gerencia Corp.de Adm y Finanzas)</i></a></div>",
+    "<div style='background:#283593;color:white;border-radius:15px;padding:15px'><b>Rodrigo Larra\u00edn</b><br><i>(Gerente General Corporativo)</i></div>",
+    "(Gerencia Corp.de Adm y Finanzas)"
+  ],
+  [
+    "<div style='background:#5c6bc0;color:white;border-radius:15px;padding:15px'><a href='cristian_siegmund.html'  style='color:white;text-decoration:none'><b>Cristian Siegmund</b><br><i>(Gerencia Supermercados Chile)</i></a></div>",
+    "<div style='background:#283593;color:white;border-radius:15px;padding:15px'><b>Rodrigo Larra\u00edn</b><br><i>(Gerente General Corporativo)</i></div>",
+    "(Gerencia Supermercados Chile)"
+  ],
+  [
+    "<div style='background:#5c6bc0;color:white;border-radius:15px;padding:15px'><a href='eulogio_guzman.html'  style='color:white;text-decoration:none'><b>Eulogio Guzman</b><br><i>(Gerencia Retail Financiero)</i></a></div>",
+    "<div style='background:#283593;color:white;border-radius:15px;padding:15px'><b>Rodrigo Larra\u00edn</b><br><i>(Gerente General Corporativo)</i></div>",
+    "(Gerencia Retail Financiero)"
+  ],
+  [
+    "<div style='background:#5c6bc0;color:white;border-radius:15px;padding:15px'><a href='holding.html'  style='color:white;text-decoration:none'><b>Holding</b><br><i>(Gerencia Holding)</i></a></div>",
+    "<div style='background:#283593;color:white;border-radius:15px;padding:15px'><b>Rodrigo Larra\u00edn</b><br><i>(Gerente General Corporativo)</i></div>",
+    "(Gerencia Holding)"
+  ],
+  [
+    "<div style='background:#5c6bc0;color:white;border-radius:15px;padding:15px'><a href='juan_luis_taverne.html'  style='color:white;text-decoration:none'><b>Juan Luis Taverne</b><br><i>(Gerencia Tiendas por Depto. Chile)</i></a></div>",
+    "<div style='background:#283593;color:white;border-radius:15px;padding:15px'><b>Rodrigo Larra\u00edn</b><br><i>(Gerente General Corporativo)</i></div>",
+    "(Gerencia Tiendas por Depto. Chile)"
+  ],
+  [
+    "<div style='background:#5c6bc0;color:white;border-radius:15px;padding:15px'><a href='luis_bernardo_silva.html'  style='color:white;text-decoration:none'><b>Luis Bernardo Silva</b><br><i>(Gerencia corporativo Personas)</i></a></div>",
+    "<div style='background:#283593;color:white;border-radius:15px;padding:15px'><b>Rodrigo Larra\u00edn</b><br><i>(Gerente General Corporativo)</i></div>",
+    "(Gerencia corporativo Personas)"
+  ],
+  [
+    "<div style='background:#5c6bc0;color:white;border-radius:15px;padding:15px'><a href='marisol_fernandez.html'  style='color:white;text-decoration:none'><b>Marisol Fernandez</b><br><i>(Gerencia asuntos Corporativos & Sostenibilidad)</i></a></div>",
+    "<div style='background:#283593;color:white;border-radius:15px;padding:15px'><b>Rodrigo Larra\u00edn</b><br><i>(Gerente General Corporativo)</i></div>",
+    "(Gerencia asuntos Corporativos & Sostenibilidad)"
+  ],
+  [
+    "<div style='background:#5c6bc0;color:white;border-radius:15px;padding:15px'><a href='rp.html'  style='color:white;text-decoration:none'><b>RP</b><br><i>(Gerencia RP)</i></a></div>",
+    "<div style='background:#283593;color:white;border-radius:15px;padding:15px'><b>Rodrigo Larra\u00edn</b><br><i>(Gerente General Corporativo)</i></div>",
+    "(Gerencia RP)"
+  ],
+  [
+    "<div style='background:#5c6bc0;color:white;border-radius:15px;padding:15px'><a href='ricardo_bennett.html'  style='color:white;text-decoration:none'><b>Ricardo Bennett</b><br><i>(Gerencia Corp.Ecosistema Retail)</i></a></div>",
+    "<div style='background:#283593;color:white;border-radius:15px;padding:15px'><b>Rodrigo Larra\u00edn</b><br><i>(Gerente General Corporativo)</i></div>",
+    "(Gerencia Corp.Ecosistema Retail)"
+  ],
+  [
+    "<div style='background:#5c6bc0;color:white;border-radius:15px;padding:15px'><a href='sebastian_rivera.html'  style='color:white;text-decoration:none'><b>Sebasti\u00e1n Rivera</b><br><i>(GerenciaCorp. Asuntos Legales)</i></a></div>",
+    "<div style='background:#283593;color:white;border-radius:15px;padding:15px'><b>Rodrigo Larra\u00edn</b><br><i>(Gerente General Corporativo)</i></div>",
+    "(GerenciaCorp. Asuntos Legales)"
+  ]
+]);
+
+var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+      chart.draw(data, {
+        allowHtml: true,
+        allowCollapse: true,
+        nodeClass: 'node-spacing',
+        size: 'large'
+      });
+    }
+  </script>
+<style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      height: 100%;
+      width: 100%;
+      overflow: auto;
+      background-color: #f4f6f8;
+    }
+
+    #chart_div {
+      zoom: 1.1;
+      padding: 50px;
+      padding-bottom: 100px;
+      margin: 40px;
+    }
+
+    .node-spacing table {
+      margin: 20px 30px !important;
+    }
+
+    .node-spacing td {
+      padding: 20px 10px !important;
+    }
+
+    .google-visualization-orgchart-node {
+      width: 300px !important;
+      height: 150px !important;
+      border: 4px solid black !important;
+      background-color: #5c6bc0 !important;
+      color: white !important;
+      border-radius: 15px !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      margin: 10px !important;
+      font-size: 14px;
+    }
+  </style>
+
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    padding-top: 80px;
+  }
+
+  .header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #0d47a1;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    z-index: 1000;
+  }
+
+  .header-fixed button {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+
+  .header-fixed button:hover {
+    background-color: #1976d2;
+  }
+
+  .chart-container {
+    border: 3px dashed #0d47a1;
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    overflow: auto;
+    height: 75vh;
+  }
+
+  .zoom-controls {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    z-index: 1001;
+  }
+
+  .zoom-controls button {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+
+  .zoom-controls button:hover {
+    background-color: #e0e0e0;
+  }
+
+  .zoom-controls button:active {
+    background-color: #cfd8dc;
+    transform: scale(0.95);
+  }
+</style>
+</head>
+<body>
+<div class="header-fixed">
+<button onclick="window.location.href='index.html'">← Volver al inicio</button>
+<button onclick="exportPDF()">🖨 Exportar PDF</button>
+</div>
+
+<div id="leyenda" style="margin:40px;padding:20px;background:#e3f2fd;border-radius:10px;max-width:900px">
+<ul style="font-size:16px;line-height:1.8">
+<li>🧑‍💼 <b>Equipo</b>: Agrupación organizacional mayor.</li>
+<li>🏢 <b>Área Específica</b>: Subdepartamento o área funcional.</li>
+<li>👤 <b>Profesional</b>: Cargo + agrupación funcional.</li>
+<li>✅ / 🟧 <b>CECO y Reparte</b>:
+      <ul>
+<li>🟩 Fondo verde: CECO que <b>reparte: SI</b>.</li>
+<li>🟧 Fondo naranjo: CECO que <b>reparte: NO</b>.</li>
+</ul>
+</li>
+🖱️💡<b>Haz click sobre la gerencia que deseas analizar</b>‼️
+  </ul>
+</div>
+<div class="chart-container"><div id="chart_div" style="transform: scale(1); transform-origin: top left;"></div></div>
+<div style="margin:40px;text-align:center">
+<a href="index.html" style="text-decoration:none;">
+<button style="background:#1976d2;color:white;border:none;padding:12px 20px;font-size:16px;border-radius:8px;cursor:pointer;">
+      ⬅ Volver al Inicio
+    </button>
+</a>
+</div>
+
+<div class="zoom-controls">
+<button onclick="zoomOut()">➖</button>
+<button onclick="resetZoom()">🔄</button>
+<button onclick="zoomIn()">➕</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script>
+let scale = 1;
+
+function zoomIn() {
+  scale += 0.1;
+  applyZoom();
+}
+
+function zoomOut() {
+  scale = Math.max(0.2, scale - 0.1);
+  applyZoom();
+}
+
+function resetZoom() {
+  scale = 1;
+  applyZoom();
+}
+
+function applyZoom() {
+  const div = document.getElementById("chart_div");
+  div.style.transform = "scale(" + scale + ")";
+  div.style.transformOrigin = "top left";
+}
+
+function exportPDF() {
+  const element = document.querySelector(".chart-container") || document.getElementById("chart_div");
+  const opt = {
+    margin: 0.5,
+    filename: 'organigrama.pdf',
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2 },
+    jsPDF: { unit: 'in', format: 'a2', orientation: 'landscape' }
+  };
+  html2pdf().set(opt).from(element).save();
+}
+</script>
+</body>
+</html>
